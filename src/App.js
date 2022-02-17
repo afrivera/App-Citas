@@ -22,7 +22,7 @@ function App() {
     } else {
       localStorage.setItem('citas', JSON.stringify( [] ))
     }
-  }, [ citas ]);
+  }, [ citas, citasIniciales ]);
   
 
   // funcion que toma las citas actuales y agrega una nueva
